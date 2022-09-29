@@ -1,3 +1,4 @@
+const seta = documento.querySelectot('.seta');
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 const clouds = document.querySelector('.clouds');
@@ -35,4 +36,5 @@ const loop = setInterval (() => {
     }
 }, 10);
 
+document.addEventListener('setdown', jump);
 document.addEventListener('click', jump);
