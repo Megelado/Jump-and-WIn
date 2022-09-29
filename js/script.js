@@ -1,4 +1,4 @@
-const seta = document.querySelector('.seta');
+const seta = document.querySelector('.seta-cima');
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 const clouds = document.querySelector('.clouds');
@@ -37,4 +37,4 @@ const loop = setInterval (() => {
 }, 10);
 
 document.addEventListener('keydown', jump);
-document.addEventListener('click', jump);
+seta.addEventListener('click', jump);
